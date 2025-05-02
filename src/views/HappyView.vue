@@ -31,7 +31,7 @@ export default {
       players: [
         {
           id: 1,
-          image: new URL('@/assets/player1.jpg', import.meta.url).href,
+          image: '/assets/player1.jpg',  // 如果在 public 資料夾內
           name: '林奎翰',
           birthday: '1995.08.05',
           height: 203,
@@ -40,7 +40,7 @@ export default {
         },
         {
           id: 2,
-          image: new URL('@/assets/player1.jpg', import.meta.url).href,
+          image: '/assets/player1.jpg',  // 如果在 public 資料夾內
           name: '林奎翰',
           birthday: '1998.07.19',
           height: 193,
@@ -49,7 +49,7 @@ export default {
         },
         {
           id: 3,
-          image: new URL('@/assets/player1.jpg', import.meta.url).href,
+          image: '/assets/player1.jpg',  // 如果在 public 資料夾內
           name: '林奎翰',
           birthday: '1998.10.07',
           height: 185,
